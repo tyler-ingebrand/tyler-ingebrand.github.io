@@ -1,2 +1,2 @@
-This is the source code for https://tyler-ingebrand.github.io/. 
+See my personal site at https://tyler-ingebrand.github.io/. 
   
