@@ -53,7 +53,7 @@ Suppose we create $$k$$ neural networks, each of which is a basis function. Then
 
 I've left the algorithm in terms of the inner product and vector addition/scalar multiplication terms to highlight it can be applied to any Hilbert space, so long as the basis functions are differentiable. For example, this is what it looks like applied to 3-dimensional Euclidean space:
 
-<video width="auto" controls>
+<video width="100%" height="auto" controls>
   <source src="{{ site.baseurl }}/data/zero-shot-RL/animation_2b.mp4" type="video/mp4">
   Your browser may not be able to load this video. 
 </video>
