@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Tyler Ingebrand's Personal Site
-# email: your-email@example.com
+email: tyleringebrand@utexas.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Hello and welcome to my personal site! 
   I am a PhD student at the University of Texas at Austin interested in machine learning and AI. 

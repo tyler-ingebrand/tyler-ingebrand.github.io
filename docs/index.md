@@ -6,7 +6,9 @@ list_title: ' Selected Publications'
 ---
 
 
-![A headshot](data/headshot.jpg){: style="float: left; margin-right: 1em;" width="310"}
+<div class="image" style="text-align:center">
+        <img src="{{ site.baseurl }}/data/headshot.jpg" width="auto">
+</div>
 
 # Bio
 
