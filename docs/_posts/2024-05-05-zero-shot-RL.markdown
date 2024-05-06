@@ -28,7 +28,7 @@ $$f(x) = \sum_{i=1}^k c_i g_i(x),\quad \quad \quad[1]$$
 
 where $$g_1, g_2, ..., g_k$$ are basis functions and $$c_1, c_2, ..., c_k$$ are scalar coefficients (which are unique to $$f$$). This gives us a way of expressing the model. We simply need to learn the basis functions $$g_1, g_2, ..., g_k$$, and find a way to compute the coefficients for any function $$f$$. In theory, we may need infinite basis functions to perfectly reproduce $$f$$, but in practice we are content with approximating $$f$$ via a finite number of basis functions. 
 
-As mentioned, we need to compute the coefficients $$c_1, c_2, ..., c_k$$ for any function $$f$$, given our basis functions. Fortunately, there is a closed form solution:
+As mentioned, we need to compute the coefficients $$c_1, c_2, ..., c_k$$ for any function $$f$$, given our basis functions. Fortunately, there is an expression for this:
 
 $$c_i = \langle f, g_i \rangle = \int_\mathcal{X} f(x)g_i(x)dx.\quad \quad \quad[2]$$ 
 
@@ -47,7 +47,7 @@ Suppose we create $$k$$ neural networks, each of which is a basis function. Then
 3. &emsp; $$𝑙𝑜𝑠𝑠=0$$
 4. &emsp; For $$D_i \in \mathcal{D}$$:
 5. &emsp; &emsp; $$𝑐_𝑖 = \langle 𝑓,𝑔_𝑖 \rangle \forall 𝑖$$ 
-6. &emsp; &emsp; $$f = \sum_{i=1}^k c_i g_i $$ 
+6. &emsp; &emsp; $$\hat{f} = \sum_{i=1}^k c_i g_i $$ 
 7. &emsp; &emsp; $$loss = loss + \mid \mid \hat{f} - f \mid \mid ^2 $$
 8. &emsp; $$\theta = \theta - \alpha \nabla_\theta loss $$
 
@@ -132,7 +132,7 @@ Even with only one basis function, the basis still learns the quadratic term, as
 
 The inner product calculation requires no expensive gradient updates. This makes it useful for online predictions. For example, suppose you modeling the dynamics of a robotic system walking on a new surface. The robot may collect a small, online data set of states, actions, and next states. This data set can be used to compute the coefficients, and then the future dynamics can be predicted right away. Crucially, the inner product is just a sample mean, and be computed extremely quickly with low memory overhead. This makes the function encoder extremely useful for online, zero-shot transfer. Furthermore, the inner product could be computed as a running sample mean, with O(1) memory overhead and O(1) compute overhead per additional data point. As a result, I expect this to be useful for low-compute, embedded systems. 
 
-One last point about coefficient calculations. Once the basis functions are trained, any method can be used to compute the coefficients. For example, given deterministic data of $$x,f(x)$$ pairs, the least squares method may be used to compute the coefficients. For probability distributions, the equivalent is maximum likelihood estimation. In both cases, the goal is to find the best coefficients to explain the data. I see two main benefits of this approach. 1) The computed coefficients may be more accurate given a small dataset. 2) If the function does not lie within the learned space, least squares/maximum livlihood may give the closest representation within the learned space, IE the line connecting $$f$$ and the nearest approximation will be perpendicular to the learned space. This is the best you can do for fixed basis functions. This is therefore an avenue for generalization *outside* of the learned function space, though these calculations are more expensive than the inner product calculation. 
+One last point about coefficient calculations. Once the basis functions are trained, any method can be used to compute the coefficients. For example, given deterministic data of $$x,f(x)$$ pairs, the least squares method may be used to compute the coefficients. For probability distributions, the equivalent is maximum likelihood estimation. In both cases, the goal is to find the best coefficients to explain the data. I see two main benefits of this approach. 1) The computed coefficients may be more accurate given a small dataset. 2) If the function does not lie within the learned space, least squares/maximum likelihood may give the closest representation within the learned space, IE the line connecting $$f$$ and the nearest approximation will be perpendicular to the learned space. This is the best you can do for fixed basis functions. This is therefore an avenue for generalization *outside* of the learned function space, though these calculations are more expensive than the inner product calculation. 
 
 ### El Fin
 
