@@ -134,7 +134,7 @@ The inner product calculation requires no expensive gradient updates. This makes
 
 One last point about coefficient calculations. Once the basis functions are trained, any method can be used to compute the coefficients. For example, given deterministic data of $$x,f(x)$$ pairs, the least squares method may be used to compute the coefficients. For probability distributions, the equivalent is maximum likelihood estimation. In both cases, the goal is to find the best coefficients to explain the data. I see two main benefits of this approach. 1) The computed coefficients may be more accurate given a small dataset. 2) If the function does not lie within the learned space, least squares/maximum likelihood may give the closest representation within the learned space, IE the line connecting $$f$$ and the nearest approximation will be perpendicular to the learned space. This is the best you can do for fixed basis functions. This is therefore an avenue for generalization *outside* of the learned function space, though these calculations are more expensive than the inner product calculation. 
 
-### El Fin
+### Fin
 
 Thanks for taking the time to read my post. I hope you have been convinced of the potential of this approach. If you have questions or want to chat about research, email me tyleringebrand@utexas.edu. 
 
