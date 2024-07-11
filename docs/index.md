@@ -5,12 +5,9 @@ layout: home
 list_title: ' Selected Publications'
 ---
 
-
 <div class="image" style="text-align:center">
-        <img src="{{ site.baseurl }}/data/headshot.jpg" width="auto">
+        <img src="{{ site.baseurl }}/data/headshot.jpg" width="50%" style="max-width: 50%;">
 </div>
+<br />
 
-# Bio
-
-I am a third year PhD student at the University of Texas at Austin working with Dr. Ufuk Topcu. I previously received my BS in computer engineering from Iowa State University. My recent research is in reinforcement learning and transfer learning. In particular, I have been applying the logic of Hilbert spaces to machine learning problems, and I have found it to be an excellent approach to achieving transfer in all sorts of problems!
-
+Hello, and welcome to my site! I am a third year PhD student at the University of Texas at Austin working with Dr. Ufuk Topcu. I previously received my BS in computer engineering from Iowa State University. My recent research is in reinforcement learning and transfer learning. In particular, I have been applying the logic of Hilbert spaces to machine learning problems, and I have found it to be an excellent approach to achieving transfer in all sorts of problems!

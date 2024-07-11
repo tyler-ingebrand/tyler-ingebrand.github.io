@@ -1,10 +1,13 @@
 ---
 layout: post
-title:  "Zero-Shot Reinforcement Learning Via Function Encoders"
+title:  "[Blog] What is a Function Encoder and Why Should I Care?"
+short_title: "What is a Function Encoder and Why Should I Care?"
 date:   2024-05-04
+title_size: "52px"
+# author: Tyler Ingebrand
 ---
 
-In this paper, I proposed an algorithm for learning basis functions for arbitrary Hilbert spaces. The paper introduces this idea and uses it to achieve zero-shot transfer in hidden-parameter system identification, multi-agent RL, and multi-task RL. However, learning basis functions is far more useful than just these fields. The purpose of this post is to introduce the idea of function encoders while a more detailed discussion on RL can be found in the [paper (ICML 2024)][arxiv]. 
+In the paper "[Zero-Shot Reinforcement Learning via Function Encoders][arxiv]" (ICML 2024), I proposed an algorithm for learning basis functions for arbitrary Hilbert spaces. The paper introduces this idea and uses it to achieve zero-shot transfer in hidden-parameter system identification, multi-agent RL, and multi-task RL. However, learning basis functions is far more useful than just these fields. The purpose of this post is to introduce the idea of function encoders while a more detailed discussion on RL can be found in the paper. 
 
 
 

@@ -2,16 +2,29 @@
 layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+ 
+  <!-- Allows you to specify the font size of the title in the header of the post. -->
+  {%- if page.title_size -%}
+    {% assign title_size = page.title_size %}
+  {%- else -%}
+    {% assign title_size = "72px" %}
+  {%- endif -%}
+
+  <!-- Allows you to set a different title for links, rather than the actual page.  -->
+  {%- if page.short_title -%}
+    {% assign title = page.short_title %}
+  {%- else -%}
+    {% assign title = page.title %}
+  {%- endif -%}
+
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
+    <!-- Writes title -->
+    <h1 class="post-title p-name" itemprop="name headline" style="font-size: {{title_size}}; text-align: center;"><b>{{ title | escape }}</b></h1>
+    <!-- Writes authors -->
+    <p class="post-meta" style="font-size: 24px; text-align: center;">
       {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+        {{ page.author }}
       {%- endif -%}</p>
   </header>
 
