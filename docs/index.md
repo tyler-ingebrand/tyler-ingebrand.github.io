@@ -60,7 +60,7 @@ Hello, and welcome to my site! I am a third year PhD student at the University o
         <!-- Project 2 -->
         <div class="project-item">
             <img src="data/headers/B2B.png" alt="A learned operator for an elastic plate under stress.">
-            <h3><a href="project2.html">Basis-to-Basis Operator Learning Using Function Encoders [Under Review]</a></h3>
+            <h3><a href="https://tyler-ingebrand.github.io/OperatorFunctionEncoder/">Basis-to-Basis Operator Learning Using Function Encoders [Under Review]</a></h3>
             <p>Basis-to-Basis operator learning is a novel method based on learned basis functions that achieves state-of-the-art performance in operator learning tasks.</p>
         </div>
 
