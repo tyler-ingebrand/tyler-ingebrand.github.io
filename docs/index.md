@@ -75,9 +75,9 @@ Hello, and welcome to my site! I am a third year PhD student at the University o
 
         <!-- Project 2 -->
         <div class="project-item">
-            <img src="project2-cover.jpg" alt="Project 2 Cover Image">
-            <h3><a href="project2.html">Project 2 Title</a></h3>
-            <p>Short description of Project 2 goes here. Highlight key points and outcomes of the project.</p>
+            <img src="data/headers/ZeroShotRL.png" alt="The procedure for zero-shot RL using function encoders.">
+            <h3><a href="project2.html">Zero-Shot Reinforcement Learning via Function Encoders</a></h3>
+            <p>By representing the context of a reinforcement learning problem using function encoders, basic reinforcement learning algorithms can achieve excellent zero-shot transfer in multi-task, multi-agent, and hidden-parameter reinforcement learning problems.</p>
         </div>
 
         
