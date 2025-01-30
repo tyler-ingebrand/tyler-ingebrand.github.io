@@ -60,7 +60,7 @@ Hello, and welcome to my site! I am a third year PhD student at the University o
         <div class="project-item">
             <img src="data/headers/ICML2025_cover_no_background.png" alt="A geometric characterization of transfer">
             <h3><a href="https://tyler-ingebrand.github.io/FunctionEncoderRL/">Function Encoders: A Principled Approach to Transfer Learning in Hilbert Spaces</a></h3>
-            <p> Function encoders are a principled approach to inductive transfer learning. We introduce several improvements to the function encoder algorithm, prove a universal function space approximation theorem for function encoders, and demonstrate that the function encoder outperforms SOTA on several benchmark tasks.</p>
+            <p> We introduce several improvements to the function encoder algorithm, prove a universal function space approximation theorem for function encoders, and demonstrate that the function encoder outperforms SOTA on several inductive transfer learning tasks.</p>
         </div>
 
         <div class="project-item">
