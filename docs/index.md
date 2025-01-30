@@ -59,13 +59,13 @@ Hello, and welcome to my site! I am a third year PhD student at the University o
     <div class="project-list">
         <div class="project-item">
             <img src="data/headers/ICML2025_cover_no_background.png" alt="A geometric characterization of transfer">
-            <h3><a href="https://tyler-ingebrand.github.io/FunctionEncoderRL/">Function Encoders: A Principled Approach to Transfer Learning in Hilbert Spaces</a></h3>
+            <h3><a href="https://tyler-ingebrand.github.io/FunctionEncoderRL/">Function Encoders: A Principled Approach to Transfer Learning in Hilbert Spaces [Under Review]</a></h3>
             <p> We introduce several improvements to the function encoder algorithm, prove a universal function space approximation theorem for function encoders, and demonstrate that the function encoder outperforms SOTA on several inductive transfer learning tasks.</p>
         </div>
 
         <div class="project-item">
             <img src="data/headers/B2B.png" alt="A learned operator for an elastic plate under stress.">
-            <h3><a href="https://tyler-ingebrand.github.io/OperatorFunctionEncoder/">Basis-to-Basis Operator Learning Using Function Encoders [Under Review]</a></h3>
+            <h3><a href="https://tyler-ingebrand.github.io/OperatorFunctionEncoder/">Basis-to-Basis Operator Learning Using Function Encoders [CMAME 2024]</a></h3>
             <p>Basis-to-Basis operator learning is a novel method based on learned basis functions that achieves state-of-the-art performance in operator learning tasks.</p>
         </div>
 
@@ -79,7 +79,7 @@ Hello, and welcome to my site! I am a third year PhD student at the University o
 
         <div class="project-item">
             <img src="data/headers/ZeroShotRL.png" alt="The procedure for zero-shot RL using function encoders.">
-            <h3><a href="https://tyler-ingebrand.github.io/FunctionEncoderRL/">Zero-Shot Reinforcement Learning via Function Encoders</a></h3>
+            <h3><a href="https://tyler-ingebrand.github.io/FunctionEncoderRL/">Zero-Shot Reinforcement Learning via Function Encoders [ICML 2024]</a></h3>
             <p>By representing the context of a reinforcement learning problem using function encoders, basic reinforcement learning algorithms can achieve excellent zero-shot transfer in multi-task, multi-agent, and hidden-parameter reinforcement learning problems.</p>
         </div>
 
