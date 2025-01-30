@@ -65,8 +65,7 @@ Hello, and welcome to my site! I am a third year PhD student at the University o
             max-width: 90%;
             margin: 0 auto;
             margin-bottom:15px;
-
-=        }
+        }
         .project-item img {
             width: 80%; /* Adjust size as needed */
             object-fit: contain;
