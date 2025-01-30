@@ -57,6 +57,16 @@ Hello, and welcome to my site! I am a third year PhD student at the University o
         .project-item a:hover {
             text-decoration: underline;
         }
+        /* Media query for screens smaller than 768px (phones) */
+        @media (max-width: 768px) {
+        .project-item {
+            flex-direction: column; /* Stack the text below the image on phones */
+            align-items: flex-start; /* Align text to the left */
+        }
+        .project-item img {
+            margin-bottom: 15px; /* Add space between the image and the text */
+        }
+        }
     </style>
 </head>
 <body>
