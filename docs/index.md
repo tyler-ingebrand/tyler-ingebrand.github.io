@@ -64,7 +64,11 @@ Hello, and welcome to my site! I am a third year PhD student at the University o
             align-items: flex-start; /* Align text to the left */
         }
         .project-item img {
+            width: 80%; /* Adjust size as needed */
+            object-fit: contain;
             margin-bottom: 15px; /* Add space between the image and the text */
+            margin-left: auto;
+            margin-right: auto;
         }
         }
     </style>
