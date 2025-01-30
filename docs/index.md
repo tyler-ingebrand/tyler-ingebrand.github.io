@@ -63,7 +63,9 @@ Hello, and welcome to my site! I am a third year PhD student at the University o
             flex-direction: column; /* Stack the text below the image on phones */
             align-items: flex-start; /* Align text to the left */
             max-width: 90%;
-        }
+            margin-left: 10px;
+            margin-right: 10px;
+=        }
         .project-item img {
             width: 80%; /* Adjust size as needed */
             object-fit: contain;
