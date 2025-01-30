@@ -57,7 +57,12 @@ Hello, and welcome to my site! I am a third year PhD student at the University o
 <body>
     <h1>Selected Publications</h1>
     <div class="project-list">
-        <!-- Project 2 -->
+        <div class="project-item">
+            <img src="data/headers/ICML2025_cover_no_background.png" alt="A geometric characterization of transfer">
+            <h3><a href="https://tyler-ingebrand.github.io/FunctionEncoderRL/">Function Encoders: A Principled Approach to Transfer Learning in Hilbert Spaces</a></h3>
+            <p> Function encoders are a principled approach to inductive transfer learning. We introduce several improvements to the function encoder algorithm, prove a universal function space approximation theorem for function encoders, and demonstrate that the function encoder outperforms SOTA on several benchmark tasks.</p>
+        </div>
+
         <div class="project-item">
             <img src="data/headers/B2B.png" alt="A learned operator for an elastic plate under stress.">
             <h3><a href="https://tyler-ingebrand.github.io/OperatorFunctionEncoder/">Basis-to-Basis Operator Learning Using Function Encoders [Under Review]</a></h3>
@@ -65,15 +70,13 @@ Hello, and welcome to my site! I am a third year PhD student at the University o
         </div>
 
 
-        <!-- Project 1 -->
         <div class="project-item">
             <img src="data/headers/ZeroShotneuralODE.png" alt="A quadrotor flying to a target waypoint.">
             <h3><a href="https://tyler-ingebrand.github.io/NeuralODEFunctionEncoder/">Zero-Shot Transfer of Neural ODEs [NeurIPS 2024]</a></h3>
             <p>This work combines the recent advances in learned basis functions with neural ODEs,
-  allowing for online transfer of learned system models at execution time without retraining.</p>
+                allowing for online transfer of learned system models at execution time without retraining.</p>
         </div>
 
-        <!-- Project 2 -->
         <div class="project-item">
             <img src="data/headers/ZeroShotRL.png" alt="The procedure for zero-shot RL using function encoders.">
             <h3><a href="https://tyler-ingebrand.github.io/FunctionEncoderRL/">Zero-Shot Reinforcement Learning via Function Encoders</a></h3>
