@@ -9,7 +9,12 @@ layout: home
 </div> 
 <br />
 
-Hello, and welcome to my site! I am a third year PhD student at the University of Texas at Austin working with Dr. Ufuk Topcu. I previously received my BS in computer engineering from Iowa State University. My recent research is in reinforcement learning and transfer learning. In particular, I have been applying the logic of Hilbert spaces to machine learning problems, and I have found it to be an excellent approach to achieving transfer in all sorts of problems!
+Hello, and welcome to my site! I am a fourth year PhD student at the University of Texas at Austin working with Dr. Ufuk Topcu. I previously received my BS in computer engineering from Iowa State University. My recent research is in reinforcement learning and transfer learning. In particular, I have been applying the logic of Hilbert spaces to machine learning problems, and I have found it to be an excellent approach to achieving transfer in all sorts of problems!
+Recently, I am also interested in zero-shot RL. I believe reward-free pre-training and behavior foundation models will lead to generalist agents in the near future. Lastly, I am interested in compositional representation for LLMs.
+
+I am actively looking for an industry collaboration. Feel free to reach out!
+
+
 
 <html lang="en">
 <head>
