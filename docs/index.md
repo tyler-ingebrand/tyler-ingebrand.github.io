@@ -87,7 +87,7 @@ I am actively looking for an industry collaboration. Feel free to reach out!
         <div class="project-item">
             <img src="data/headers/ICML2025_cover_no_background.png" alt="A geometric characterization of transfer">
             <div class="project-content">
-                <h3><a href="https://tyler-ingebrand.github.io/FEtransfer/">Function Encoders: A Principled Approach to Transfer Learning in Hilbert Spaces [Under Review]</a></h3>
+                <h3><a href="https://tyler-ingebrand.github.io/FEtransfer/">Function Encoders: A Principled Approach to Transfer Learning in Hilbert Spaces [ICML 2025]</a></h3>
                 <p> We introduce several improvements to the function encoder algorithm, prove a universal function space approximation theorem for function encoders, and demonstrate that the function encoder outperforms SOTA on several inductive transfer learning tasks.</p>
             </div>
         </div>
